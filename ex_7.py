@@ -8,4 +8,4 @@ for i in num:
         even += i
     else:
         odd += i
-print(even, odd)
+print(f'sum of even numbers: {even}, sum of odd numbers: {odd}')
