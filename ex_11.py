@@ -9,8 +9,8 @@ n = len(str_1)
 steps = steps % n
 
 if direction == 'R' or direction == 'r':
-    result = str_1[n - steps:] + str_1[:n - steps]
+    str_1[:] = str_1[n - steps:] + str_1[:n - steps]
 else:
-    result = str_1[steps:] + str_1[:steps]
+    str_1[:] = str_1[steps:] + str_1[:steps]
 
-print(result)
+print(str_1[:])
