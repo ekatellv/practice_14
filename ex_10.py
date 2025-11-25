@@ -16,5 +16,5 @@ elements.reverse()
 lst_2.extend(elements)
 del lst_1[start_ind:end_ind]
 
-print("The first list: ", lst_1)
-print("The second list: ", lst_2)
+print('The first list: ', lst_1)
+print('The second list: ', lst_2)
